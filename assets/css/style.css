@@ -21,8 +21,8 @@ body::before {
   position: fixed;
   /*background: #040404 url("../img/bg/tropical.jpg") top right no-repeat;*/
   background: rgb(2,0,36);
-  /*background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);*/
   background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+  background: #040404 url("../img/bg/bluevector.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -406,7 +406,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #00d4ff;
   margin: 4px 10px;
 }
 
@@ -1027,7 +1027,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #00d4ff;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1063,9 +1063,22 @@ section .container {
   transition: 0.3s;
 }
 
-.contact .info-box .social-links a:hover {
-  color: #18d26e;
+.contact .info-box .social-links a.twitter:hover {
+  color: #00acee;
 }
+
+.contact .info-box .social-links a.facebook:hover {
+  color: #1778F2;
+}
+
+.contact .info-box .social-links a.instagram:hover {
+  color: #C13584;
+}
+
+.contact .info-box .social-links a.linkedin:hover {
+  color: #0A66C2;
+}
+
 
 .contact .php-email-form {
   padding: 30px;
@@ -1151,7 +1164,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #00d4ff;
   border: 0;
   padding: 10px 30px;
   color: #fff;
