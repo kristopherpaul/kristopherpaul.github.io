@@ -130,6 +130,10 @@ h6 {
   background: #18d26e;
 }*/
 
+#header .social-links a.github:hover {
+  background: #6cc644;
+}
+
 #header .social-links a.twitter:hover {
   background: #00acee;
 }
@@ -1120,6 +1124,10 @@ section .container {
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
+}
+
+.contact .info-box .social-links a.github:hover {
+  color: #6cc644;
 }
 
 .contact .info-box .social-links a.twitter:hover {
