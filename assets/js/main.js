@@ -200,6 +200,35 @@
   });
 
   /**
+   * Blog isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let blogContainer = select('.blog-container');
+    if (blogContainer) {
+      let blogIsotope = new Isotope(blogContainer, {
+        itemSelector: '.blog-item',
+        layoutMode: 'fitRows'
+      });
+
+      let blogFilters = select('#blog-flters li', true);
+
+      on('click', '#blog-flters li', function(e) {
+        e.preventDefault();
+        blogFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        blogIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+      }, true);
+    }
+
+  });
+
+
+  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {

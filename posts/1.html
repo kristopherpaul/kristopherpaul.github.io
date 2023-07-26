@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kristopher Paul</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicons/letter-k.png" rel="icon">
+  <link href="../assets/img/favicons/letter-k.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="../assets/css/styles_blog.css" rel="stylesheet" />
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+      <h1><a href="../index.html#blog">Keep Reading!</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="../index.html#blog">See Other Posts</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Post Section ======= -->
+  <section id="post" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Blog</h2>
+      </div>
+
+      <div class="row">
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('../assets/img/posts/post-1.jpg')">
+          <div class="position-relative px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                  <div class="col-md-10 col-lg-8 col-xl-7">
+                      <div class="post-heading">
+                          <h1>Mobile Phone Fraud Detection: How Deep Learning and NLP Can Save the Day!</h1>
+                          <h2 class="subheading">Unveiling the Power of Deep Learning and NLP in Fraud Detection</h2>
+                          <span class="meta">
+                              Posted by
+                              <a href="#!">Kristopher Paul</a>
+                              on July 26, 2023
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+          <div class="px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                  <div class="col-md-10 col-lg-8 col-xl-7">
+                    <p>In today&#39;s digital age, mobile phone scams and fraudulent calls have become a pervasive problem in many countries. Scammers use various tactics to deceive innocent people, making false promises and intimidating them to steal their hard-earned money. The traditional approach to detecting these fraudulent calls, such as whitelisting and blacklisting numbers, has proven to be ineffective as scammers often use number spoofing via VoIP (Voice Over IP) to carry out their schemes.</p>
+                    <p>But fear not! There&#39;s a cutting-edge solution that combines the power of Deep Learning with Natural Language Processing (NLP) to identify and thwart these fraudulent calls in real-time. Imagine having an app on your smartphone that could alert you right when a scam call is happening. Intrigued? Let&#39;s dive into the details.</p>
+                    <h3>The Problem: Rising Mobile Phone Scams</h3>
+                    <p>Mobile phone scams have become a significant menace, affecting millions of people worldwide. These scams come in various forms, ranging from enticing investment opportunities to fake product trials, lotteries, and even threats of lawsuits or jail time. Scammers are getting smarter, making it challenging to differentiate between legitimate and fraudulent calls.</p>
+                    <h3>The Traditional Approach: Whitelisting and Blacklisting</h3>
+                    <p>In the past, attempts to combat mobile phone scams relied heavily on whitelisting and blacklisting numbers. While this approach provided some level of protection, it failed to keep up with the ever-evolving tactics of scammers. Number spoofing via VoIP technology made it easy for scammers to bypass these measures, rendering them ineffective.</p>
+                    <h3>The Game-Changer: Deep Learning and NLP</h3>
+                    <p>Enter Deep Learning and NLP, the superheroes of modern technology! By harnessing the power of these cutting-edge techniques, a new solution has emerged: real-time detection of fraudulent calls by analyzing the call content.</p>
+                    <h4>The Transformer Model: A Marvel of Deep Learning</h4>
+                    <p>The Transformer Model, introduced in 2017, revolutionized Natural Language Processing. Companies like Google, Facebook, and OpenAI developed their own versions, showcasing its incredible capabilities. In this project, we use the XLNet Transformer Model, fine-tuned with hyperparameters to achieve outstanding results in call fraud detection.</p>
+                    <h3>How It Works</h3>
+                    <ol>
+                    <li><p><strong>Data Collection:</strong> To train our model, we need data on both fraudulent and non-fraudulent calls. Complaints of mobile phone fraud are collected from social media platforms like Twitter, while the Santa Barbara Corpus provides us with non-fraudulent mobile phone conversations.</p>
+                    </li>
+                    <li><p><strong>Data Preparation:</strong> We combine the data from Twitter complaints and the Santa Barbara Corpus to create a balanced dataset for training. This ensures that the model learns to differentiate between fraudulent and non-fraudulent calls effectively.</p>
+                    </li>
+                    <li><p><strong>Model Training:</strong> The XLNet Transformer Model is trained on this dataset using the latest advancements in Deep Learning. The model is continuously tested on a cross-validation set to optimize its performance.</p>
+                    </li>
+                    <li><p><strong>Real-time Detection:</strong> Once trained, the model is ready to tackle fraudulent calls in real-time. Actual call recordings are converted to text using IBM Watson&#39;s Speech To Text with speaker diarization to separate the speakers&#39; speech effectively.</p>
+                    </li>
+                    <li><p><strong>Alerting the User:</strong> The Transformer Model then analyzes the call content and predicts if it&#39;s a fraudulent call or not. When a fraudulent call is detected, the user is immediately alerted through the mobile app, saving them from potential harm.</p>
+                    </li>
+                    </ol>
+                    <h3>Results and Future Developments</h3>
+                    <p>The results are astounding! The final model achieves an accuracy rate of 90% in detecting fraudulent calls. This outperforms traditional methods by a significant margin, making it a game-changer in the fight against mobile phone scams.</p>
+                    <p>This solution is just the beginning. We are continually updating the model with newer data, including confirmed fraud calls from app users. This iterative process ensures that the model evolves and improves over time, providing even better protection to mobile phone users.</p>
+                    <h3>Stay Protected, Stay Informed!</h3>
+                    <p>With the rise of mobile phone scams, having a robust solution like the Deep Learning with NLP-powered mobile app can be a lifesaver. The ability to detect fraudulent calls in real-time gives users the upper hand in protecting themselves from scammers.</p>
+                    <p>So, stay protected, stay informed, and keep an eye out for future updates as I strive to make the digital world a safer place for everyone!</p>
+                    <h4>References</h4>
+                    <p>For those interested in delving deeper into the project, you can find the Google Colab Notebook and useful reference links below:</p>
+                    <ul>
+                    <li><a href="https://colab.research.google.com/drive/15sN_f8XeEjNM6tbkZfhorfRtn7Z9fewl?usp=sharing">Google Colab Notebook</a></li>
+                    <li><a href="https://docs.google.com/presentation/d/1BKBQgmLCBOA6-p2rRrE9Vvv61urzLIst9gwSMi_fvU0/edit?usp=sharing">Google Slides Presentation</a></li>
+                    <li><a href="https://www.kaggle.com/rtatman/santa-barbara-corpus-of-spoken-american-english">Santa Barbara Corpus of Spoken American English</a></li>
+                    <li><a href="https://www.ibm.com/in-en/cloud/watson-speech-to-text">IBM Watson Speech to Text</a></li>
+                    <li><a href="https://huggingface.co/transformers/model_doc/xlnet.html">XLNet Transformer Model Documentation</a></li>
+                    <li><a href="https://towardsdatascience.com/text-normalization-7ecc8e084e31">Text Normalization</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)">Transformer (Machine Learning Model)</a></li>
+                    </ul>
+                    <p>Remember, knowledge is power, and together, we can combat mobile phone fraud and protect ourselves and our loved ones!</p>
+                  </div>
+              </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section><!-- End Post Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
