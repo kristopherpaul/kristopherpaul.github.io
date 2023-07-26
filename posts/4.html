@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kristopher Paul</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicons/letter-k.png" rel="icon">
+  <link href="../assets/img/favicons/letter-k.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="../assets/css/styles_blog.css" rel="stylesheet" />
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+      <h1><a href="../index.html#blog">Keep Reading!</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="../index.html#blog">See Other Posts</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Post Section ======= -->
+  <section id="post" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Blog</h2>
+      </div>
+
+      <div class="row">
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('../assets/img/posts/post-4.jpg')">
+          <div class="position-relative px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                  <div class="col-md-10 col-lg-8 col-xl-7">
+                      <div class="post-heading">
+                          <h1>Unleashing the Power of FJLT: Enhancing Low-Rank Matrix Approximations with Positional Value Learning in CountSketch</h1>
+                          <h2 class="subheading">Revolutionizing Data Processing and Dimensionality Reduction in Machine Learning</h2>
+                          <span class="meta">
+                              Posted by
+                              <a href="#!">Kristopher Paul</a>
+                              on July 26, 2023
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+          <div class="px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                  <div class="col-md-10 col-lg-8 col-xl-7">
+                    <p>Have you ever wondered how computers efficiently process massive amounts of data? Algorithms like the Fast Johnson-Lindenstrauss Transform (FJLT) play a crucial role in quickly performing low-rank matrix approximations, making them indispensable in various applications, especially in the world of machine learning.</p>
+                    <p>In this blog post, we&#39;ll dive into a novel approach to enhance the FJLT algorithm using positional value learning in CountSketch. By optimizing the sparse projection matrix and leveraging the power of Hadamard matrices, we aim to reduce distortion caused by random projections and improve the performance of FJLT in handling large datasets.</p>
+                    <h3><strong>Understanding FJLT and Its Components</strong></h3>
+                    <p>Before we delve into our proposed approach, let&#39;s take a quick look at the key components of the Fast Johnson-Lindenstrauss Transform.</p>
+                    <p><strong>Hadamard Matrices</strong>: These magical matrices possess desirable properties such as orthogonality and symmetry. By transforming the input signal into a different domain using Hadamard matrices, FJLT can compress the data while retaining important information.</p>
+                    <p><strong>CountSketch</strong>: Another vital element of FJLT is CountSketch, a clever randomized data structure. It efficiently stores and retrieves high-dimensional data, helping FJLT perform low-rank matrix approximations with accuracy and speed.</p>
+                    <h3><strong>The Challenge: Reducing Distortion</strong></h3>
+                    <p>While FJLT is powerful, it&#39;s not without its challenges. Random projections can introduce distortion, impacting the accuracy of low-rank matrix approximations. Our goal is to find a solution that mitigates this distortion and improves the overall performance of FJLT.</p>
+                    <h3><strong>Introducing Positional Value Learning in CountSketch</strong></h3>
+                    <p>Inspired by recent research by Li Y. et al [1], we propose an innovative approach to address the distortion issue in FJLT. Instead of creating a random sparse projection matrix, we learn the positions and values in that matrix using positional value learning in CountSketch.</p>
+                    <p>By optimizing the sparse projection matrix, we aim to achieve more accurate low-rank matrix approximations, even when dealing with vast datasets. The idea is to leverage machine learning techniques to fine-tune the matrix in a way that minimizes distortion and preserves important features of the data.</p>
+                    <h3><strong>The Experimental Results</strong></h3>
+                    <p>To validate our approach, we conducted experiments on the UCI ML digits dataset. The results were promising! Compared to the existing state-of-the-art FJLT algorithms, our modified FJLT showed superior performance in preserving Euclidean distance and reducing distortion. Even with only 20% of the data used for training, our approach outperformed the traditional FJLT.</p>
+                    <h3><strong>Conclusion: Unlocking the Power of Algorithms</strong></h3>
+                    <p>The Fast Johnson-Lindenstrauss Transform (FJLT) algorithm has proven to be a game-changer in low-rank matrix approximations, enabling quick processing of vast datasets in various applications. Our proposed approach, incorporating positional value learning in CountSketch and leveraging Hadamard matrices, takes FJLT&#39;s capabilities to the next level.</p>
+                    <p>The success of our experiment encourages us to explore the scalability of our approach and its potential in real-world applications with diverse data characteristics. As technology continues to evolve, algorithms like FJLT will be at the forefront of data processing, unlocking the potential of data and driving transformative innovations in countless industries.</p>
+                    <p>Let&#39;s keep pushing the boundaries of what&#39;s possible in the world of algorithms and data science. Through continuous research and collaboration, we can create more efficient, accurate, and versatile solutions that power the technologies of tomorrow. Together, we have the power to shape a data-driven future.</p>
+                    <h4>References</h4>
+                    <p>This research was done as part of my project course CS299 under Prof. Anirban Dasgupta at IIT Gandhinagar.</p>
+                    <ul>
+                    <li><a href="https://drive.google.com/file/d/1g5advtH6D7klmt6-Vy3lpVTd_0x4IE0M/view">CS299 Report</a></li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section><!-- End Post Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
